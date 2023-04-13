@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+
+
+body {
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    align-content: left;
+}
+.uudised {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.uudis {
+    color: rgb(2, 2, 2);
+   
+    width:  300px;
+    text-align: left;
+
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+h2 > a {
+
+color: black;
+text-decoration: none;
+}
+
+.teine {
+    color: black;
+    text-decoration: underline;
+}
+.kommentaarid {
+    color: red;
+}
+
+a, img {
+width: inherit;
+
+
+}
