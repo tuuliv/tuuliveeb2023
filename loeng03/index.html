@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<h1> Registreeri siin</h1>
+<form>
+
+<!--
+NIMI
+KASUTAJANIMI
+PAROOL 
+EMAIL
+SUGU MEES NAINE DROPDOWN TEHA SIIA
+SÜNNIKUUPÄEV MINGI KALENDER MITTE EI SAA VALIDA MIDAGI PEALE 2020 ALLA 3a ei saa regada
+
+KAS OLED TINGIMUSTEGA NÕUS? (CHECKBOX, peab olema linnuke)
+registreeri NUPP
+
+
+-->
+<label for="Nimi"> Nimi </label> <br>
+<input type="text" id="Nimi"> <br>
+
+<label for="kasutaja nimi"> Kasutaja nimi </label> <br>
+<input type="text" id="kasutaja nimi"> <br>
+
+<label for="parool"> Parool</label><br>
+<input type="button" onclick="parool"><br>
+<input type="parool" id="parool" name="parool"><br>
+
+<label for="email">Pane siia enda e-mail</label><br>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="Sugu">Vali oma sugu</label><br>
+  <select id="Sugu" name="Sugu"><br>
+    <option value="Mees">Mees</option>
+    <option value="Naine">Naine</option><br>
+  </select> 
+
+
+  <label for="datemax">Enter a date before 2020-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="2020-12-31"><br><br>
+  
+  <label for="valik"> Kas nõustud?</label><br>
+  <input type="checkbox" id="valik" name="valik1" value="Jah">
+  <label for="valik1"> Jah</label><br>
+  <input type="checkbox" id="vehicle2" name="valik2" value="Ei">
+  <label for="valik2"> Ei</label><br>
+
+ <br><input type="submit"  value="Registreeri end">
+
+
+
+
+</form>
+</body>
+</html>
