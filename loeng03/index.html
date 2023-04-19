@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -26,6 +27,8 @@ registreeri NUPP
 
 
 -->
+<div class="konteiner">
+
 <label for="Nimi"> Nimi </label> <br>
 <input type="text" id="Nimi"> <br>
 
@@ -33,8 +36,8 @@ registreeri NUPP
 <input type="text" id="kasutaja nimi"> <br>
 
 <label for="parool"> Parool</label><br>
-<input type="button" onclick="parool"><br>
-<input type="parool" id="parool" name="parool"><br>
+
+<input type="password" id="parool" name="parool"><br>
 
 <label for="email">Pane siia enda e-mail</label><br>
   <input type="email" id="email" name="email"><br>
@@ -46,18 +49,18 @@ registreeri NUPP
   </select> 
 
 
-  <label for="datemax">Enter a date before 2020-01-01:</label>
+  <label for="datemax">Enter a date before 2021:</label>
   <input type="date" id="datemax" name="datemax" max="2020-12-31"><br><br>
   
   <label for="valik"> Kas nõustud?</label><br>
-  <input type="checkbox" id="valik" name="valik1" value="Jah">
+  <input type="checkbox" id="valik1" name="valik1" value="Jah">
   <label for="valik1"> Jah</label><br>
-  <input type="checkbox" id="vehicle2" name="valik2" value="Ei">
+  <input type="checkbox" id="valik2" name="valik2" value="Ei">
   <label for="valik2"> Ei</label><br>
 
  <br><input type="submit"  value="Registreeri end">
 
-
+</div>
 
 
 </form>

@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.konteiner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 40%;
+    padding: 5px solid white;
+    padding: 10%;
+    
+
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(252,70,107,1) 100%);
+
+}
