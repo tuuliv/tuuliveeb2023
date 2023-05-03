@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 32px 76px 142px;
+
+}
+
+.pais {
+height: 778px;
+background-image:  url(pildid/Hills.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.pais > nav {
+display: flex;
+justify-content: space-between;
+
+}
+
+.pais > nav > .vasak {
+    display: flex;
+}
+
+.pais > nav > .vasak > img {
+height: 82px;
+
+
+}
+
+.pais > nav > .vasak > div {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Montserrat';
+
+    
+    }
+
+    .pais > nav > .parem > div {
+        text-transform: uppercase;
+        font-size: 33px;
+        font-weight: 800;
+        font-family: 'Montserrat';
+ 
+    }
+
+    .pais > nav > .parem {
+        text-transform: uppercase;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        top: 62px;
+        left: 609px;
+width: 751px;
+height: 20px;
+
+    
+    }
+
+    .pais > nav > .parem > a {
+
+        font-weight: 700;
+        text-align: left;
+letter-spacing: 2.67px;
+color: #000000;
+opacity: 1;
+text-decoration: none;
+    }
+
+    .pealkiri {
+        font-size: 74.39px;
+
+        padding-top: 100px;
+        padding-left: 100px;
+        position: auto;
+      align-items: center;
+    }
+
+    .pealkiri2 {
+        font-size:39.57px;
+        
+    }
